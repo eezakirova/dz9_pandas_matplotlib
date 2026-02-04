@@ -3,12 +3,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 # Загрузка данных
 data = {
-"events": [
-{"timestamp": "2023-08-21T08:00:00", "signature": "MALWARE-CNC
-Win.Trojan.Jadtre variant outbound connection"},
-# Добавьте остальные события аналогично
-]
-}
+    "events": [
+        {"timestamp": "2023-08-21T08:00:00", "signature": "MALWARE-CNC Win.Trojan.Jadtre variant outbound connection"}
+                ]
+        }
 # Преобразование в DataFrame
 df = pd.DataFrame(data["events"])
 # Визуализация
